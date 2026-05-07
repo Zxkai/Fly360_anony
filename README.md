@@ -1,9 +1,5 @@
 
 # Fly360 🚁: Omnidirectional Obstacle Avoidance within Drone View
-<p align="center">
-  <a href='https://arxiv.org/pdf/2603.06573'><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>
-  <a href='https://zxkai.github.io/fly360/'><img src='https://img.shields.io/badge/Project_Page-Website-green?logo=insta360&logoColor=white' alt='Project Page'></a>
-</p>
 
 ![teaser](assets/teaser01.jpg)
 
@@ -45,7 +41,7 @@ We use the AirSim+UE environments from **AirVLN**. Please follow the official in
 
 ### Option B: AirSim360 platform (recommended)
 
-We also provide an alternative setup and recommend using **AirSim360** to test this code or explore other panoramic + UAV research workflows. **AirSim360** is a simulation platform developed by our team specifically for panoramic-vision research, built on **Unreal Engine 5 (UE5)**. It provides more diverse task scenarios and a more convenient development environment for experiments involving 360° perception and UAV autonomy.
+We also provide an alternative setup and recommend using **AirSim360** to test this code or explore other panoramic + UAV research workflows. **AirSim360** is a simulation platform specifically for panoramic-vision research, built on **Unreal Engine 5 (UE5)**. It provides more diverse task scenarios and a more convenient development environment for experiments involving 360° perception and UAV autonomy.
 
 - AirSim360 repo: [Insta360-Research-Team/AirSim360](https://github.com/Insta360-Research-Team/AirSim360)
 
@@ -113,23 +109,3 @@ You can also try:
 ```bash
 python demo_airsim360.py --resume weights/fly360.pth
 ```
-
-## 🧾 Citation
-
-If you find this code useful, please cite:
-
-```bibtex
-@article{fly360_2026,
-title={Fly360: Omnidirectional Obstacle Avoidance Within Drone View},
-author={Xiangkai Zhang and Dizhe Zhang and Wenzhuo Cao and Zhaoliang Wan and Yingjie Niu and Lu Qi and Xu Yang and Zhiyong Liu},
-archivePrefix={arxiv},
-year={2026}
-}
-```
-
-## 🙏 Acknowledgements
-
-- [AirSim](https://github.com/microsoft/AirSim)
-- [UniK3D](https://github.com/lpiccinelli-eth/UniK3D)
-- [AirVLN](https://github.com/AirVLN/AirVLN)
-- [AirSim360](https://github.com/Insta360-Research-Team/AirSim360) 
