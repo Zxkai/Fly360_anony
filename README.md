@@ -21,8 +21,7 @@ conda activate fly360
 pip install -r requirements.txt
 ```
 
-### AirSim Python client (only needed for AirSim)
-
+### AirSim Python client 
 If you run the code with AirSim, install the AirSim Python API:
 
 ```bash
@@ -39,7 +38,7 @@ We use the AirSim+UE environments from **AirVLN**. Please follow the official in
 
 - AirVLN repo: [AirVLN/AirVLN](https://github.com/AirVLN/AirVLN)
 
-### Option B: AirSim360 platform (recommended)
+### Option B: AirSim360 platform
 
 We also provide an alternative setup and recommend using **AirSim360** to test this code or explore other panoramic + UAV research workflows. **AirSim360** is a simulation platform specifically for panoramic-vision research, built on **Unreal Engine 5 (UE5)**. It provides more diverse task scenarios and a more convenient development environment for experiments involving 360° perception and UAV autonomy.
 
