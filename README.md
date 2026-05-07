@@ -42,7 +42,7 @@ We use the AirSim+UE environments from **AirVLN**. Please follow the official in
 
 We also provide an alternative setup and recommend using **AirSim360** to test this code or explore other panoramic + UAV research workflows. **AirSim360** is a simulation platform specifically for panoramic-vision research, built on **Unreal Engine 5 (UE5)**. It provides more diverse task scenarios and a more convenient development environment for experiments involving 360° perception and UAV autonomy.
 
-- AirSim360 repo: [Insta360-Research-Team/AirSim360](https://github.com/Insta360-Research-Team/AirSim360)
+- AirSim360 repo: [AirSim360](https://github.com/Insta360-Research-Team/AirSim360)
 
 | ![](assets/demo360_1.gif) | ![](assets/demo360_2.gif) | 
 
